@@ -1,0 +1,10 @@
+"TryN" no es relevante, pero lo separado por el "_" es el método utilizado en el classifier del programa:
+RF = Random Forest
+K-N = K-Neighbors
+DT = Decision Tree
+NN = Neural Network
+SVM = Support Vector Machine.
+
+Aclaramos que usar sólo IC como features (borrando las magnitudes) produce valroes del F1-score muy muy malos. Así que los mejores intentos fueron sólo agregando 2 colores y dejando las magnitudes (sin fittear RA, dec, ni Nº de ID).
+
+Los peores métodos (no incluidos aquí) fueron: Gaussian Process Classification (GPC) y Naïve Bayes.
